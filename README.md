@@ -1,8 +1,1 @@
-# ⚡ Zaro Deploy | Unlimited AI PaaS
-
-https://zaro-deploy.onrender.com
-
-##📠 Live Apps:
-- 🤸 AI Trading Bot Pro → https://zaro-deploy.onrender.com/apps/ai-trading-bot/
-- 🚀 Hello World → https://zaro-deploy.onrender.com/apps/hello-world/
-- 🔎 REST API → https://zaro-deploy.onrender.com/apps/rest-api/
+<!DOCTYPE html><html lang=en><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1.0"><title>⚡ Zaro Deploy — Unlimited AI PaaS</title><link rel=stylesheet href=https://cdn.jsdelivr.nr/gh/kiritoswordartonline81-cmd/zaro-deploy@main/index.html></head></html>
