@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⚨ Zaro Deploy</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:-apple-system,sans-serif;background:#050510;color:#e0e0f0;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center}
+    .box{padding:20px}
+    h1{font-size:clamp(2rem,6vw,4rem);font-weight:900;background:linear-gradient(135deg,#6366f1,#a855f7,#10b981,#f59e0b);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+    p{color:#555588;margin-bottom:24px;font-size:1.1rem}
+    .badges{display:flex;gap:8px;justify-content:center;margin-bottom:24px;flex-wrap:wrap}
+    .badge{padding:6px 16px;border-radius:20px;font-size:.75rem;font-weight:700}
+    .live{background:rgba(16,185,129,.12);color:#10b981;border:1px solid rgba(16,185,129,.25)}
+    .free{background:rgba(245,158,11,.12);color:#f59e0b;border:1px solid rgba(245,158,11,.25)}
+    .ul{background:rgba(168,85,247,.12);color:#a855f7;border:1px solid rgba(168,85,247,.25)}
+    .btn{display:inline-block;padding:12px 28px;border-radius:10px;font-weight:700;font-size:.9rem;text-decoration:none;margin:4px}
+    .btn-p{background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff}
+    .btn-out{border:1px solid #1a1a3e;color:#fff}
+    .apps{margin-top:40px}
+    .apps h2{font-size:1.2rem;margin-bottom:14px}
+    .app-link{display:block;padding:12px;background:rgba(255,255,255,.02);border:1px solid #1a1a3e;border-radius:10px;margin-bottom:8px;text-decoration:none;color:#e0e0f0;font-size:.9}
+    .app-link:hover{border-color:#6366f1;background:rgba(99,102,241,.04)}
+    .app-links span{color:#555588;font-size:.75rem}
+    .foot{margin-top:40px;color:#555588;font-size:.75rem}
+    .foot a{color:#6366f1;text-decoration:none}
+  </style>
+</head>
+<body>
+<div class="box">
+  <div class="badges">
+    <span class="badge live">┿ 3 Apps LIVE</span>
+    <span class="badge free">₺0 Forever</span>
+    <span class="badge ul">Unlimited Deploys</span>
+  </div>
+  <h1>⚨ Zaro Deploy</h1>
+  <p>Like Hugging Face Spaces — your server, your rules.<br">Deploy Gradio, Streamlit, Flask, Static Sites. Unlimited. FREE forever.</p>
+  <a href="https://zaro-deploy.onrender.com" class="btn btn-p">🙀 Open Dashboard</a>
+  <a href="https://zaro-deploy.onrender.com/api/health" class="btn btn-out">API Health</a>
+  <div class="apps">
+    <h2>📦 Deployed Apps</h2>
+    <a href="https://zaro-deploy.onrender.com/apps/ai-trading-bot/" class="app-link">🤸 AI Trading Bot Pro <span>Binance + AI Signals + Live Trading</span></a>
+    <a href="https://zaro-deploy.onrender.com/apps/hello-world/" class="app-link">🚀 Hello World Demo <span>First deployed app</span></a>
+    <a href="https://zaro-deploy.onrender.com/apps/rest-api/" class="app-link">🔎 REST API Demo <span>Flask + CORS + Users API</span></a>
+  </div>
+  <div class="foot">
+    💄 Powered by <a href="https://render.com">Render</a> ÷ <a href="https://github.com/kiritoswordartonline81-cmd/zaro-deploy">GitHub</a>
+  </div>
+</div>
+</body>
+</html>
